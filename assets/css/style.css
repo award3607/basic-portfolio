@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/*padding: 0 140px;*/
+	background-image: url("../images/wormz.png");
+
+}
+
+.header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding: 0 140px;
+	margin-bottom: 35px;
+	width: 100%;
+	/*overflow: hidden;*/
+	/*height: 300px;*/
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	/*padding: 20px;*/
+	/*margin-bottom: 15px;*/
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+.header h1 {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 30px;
+	float: left;
+
+}
+nav {
+	float: right;
+	padding: 30px;
+	/*margin-left: 415px;*/
+	/*clear: left;*/
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer {
+	background-color: #666666;
+	/*clear: both;*/
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 160%;
+}
+
+hr {
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	/*padding: 20px;*/
+	margin-bottom: 30px;
+	width: 960px;
+	margin-left: 140px;
+	margin-right: 140px;
+	clear: both;
+
+}
+
+.content {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 30px;
+	clear: both;
+	float: left;
+	/*margin-left: 80px;*/
+	width: 650px;
+
+}
+
+.sidebar {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 30px;
+	float: left;
+	margin-left: 40px;
+	width: 270px;
+
+}
+
+#portrait {
+	width: 230px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+
+}
+
+.icon {
+	width: 55px;
+	margin-right: 10px;
+
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item-label {
+	background-color: #4aaaa5;
+
+}
+
+.portfolio-image {
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
