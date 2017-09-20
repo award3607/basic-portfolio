@@ -43,15 +43,21 @@ nav a {
 }
 
 footer {
-	background-color: #666666;
-	color: lightgray;
+	margin-top: 10px;
+	padding-top: 10px;
 	/*clear: both;*/
-	padding: 40px;
 	text-align: center;
 	font-weight: bold;
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	width: 100%;
+	background-color: #4aaaa5;
+}
+
+footer p {
+	background-color: #666666;
+	color: lightgray;
+	padding: 30px;
 }
 
 p {
